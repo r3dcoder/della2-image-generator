@@ -2,7 +2,7 @@
   /* display: flex;
   flex-direction: column;
   justify-content: space-between; */
-  align-items: left;
+  align-items: center;
   padding: 4rem;
   min-height: 100vh;
   max-width: 100vw;
@@ -64,6 +64,7 @@
   background: rgba(var(--card-rgb), 0);
   border: 1px solid rgba(var(--card-border-rgb), 0);
   transition: background 200ms, border 200ms;
+  color: white;
 }
 
 .card span {

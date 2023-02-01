@@ -21,7 +21,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-         <div className={styles.card}>{settings.getDescription()}</div>
+
+         
+         <div className={styles.card}>
+         <h2 className='title'>{settings.getTitle()}</h2>
+          {settings.getDescription()}</div>
          <Della2/>
       </main>
     </>

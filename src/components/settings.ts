@@ -21,6 +21,6 @@ export class Settings {
   }
 
   public getTitle(): string {
-    return this.description;
+    return this.title;
   }
 }
